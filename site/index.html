@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Another Page Of Alan</title>
+    <!-- 
+      font-family: 'Inter', sans-serif;
+      font-family: 'Roboto', sans-serif;
+    -->
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        color: #cacfd6;
+        background-color: #03440c;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Inter', sans-serif;
+        font-weight: 300;
+      }
+      a {
+        color: #9d5c63;
+        text-decoration: none;
+      }
+      header {
+        flex-shrink: 0;
+        width: 100%;
+        max-width: 480px;
+        margin: 0 auto;
+        padding-top: 10px;
+        border-bottom: 1px solid #2e1e0f;
+        font-size: 1rem;
+      }
+      main {
+        flex-grow: 1;
+        width: 100%;
+        max-width: 480px;
+        margin: 0 auto;
+        padding-top: 10px;
+      }
+      footer {
+        flex-shrink: 0;
+        width: 100%;
+        max-width: 480px;
+        margin: 0 auto;
+        font-size: 0.82rem;
+        padding-bottom: 6px;
+        margin-top: 10px;
+        color: #637bc7;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="https://www.alanwsmith.com/">alanwsmith.com</a> -
+      <a href="https://links.alanwsmith.com/">links</a> -
+      <a href="https://podcast.alanwsmith.com/">podcast</a>
+    </header>
+    <main>
+      <p>Okay.</p>
+      <p>
+        I haven't actually built out a domain for every framework yet. Give me
+        some time.
+      </p>
+      <p>Better yet. I'll race ya.</p>
+    </main>
+    <footer>
+      made by <a href="https://twitter.com/TheIdOfAlan">alan w. smith</a><br />
+      who has a <a href="https://www.alanwsmith.com/">website</a> and a
+      <a href="https://podcast.alanwsmith.com/">podcast</a> <br />and some
+      <a href="https://links.alanwsmith.com/">other stuff</a>
+    </footer>
+  </body>
+  <script>
+    function blastOff() {
+      console.log('DOM is loaded and ready for javascript stuff to be done')
+    }
+    document.addEventListener('DOMContentLoaded', blastOff)
+  </script>
+</html>
